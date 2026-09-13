@@ -36,11 +36,11 @@ This project uses Natural Language Processing (NLP) and Machine Learning algorit
 
 | Model | Accuracy | Precision |
 | :--- | :--- | :--- |
-| **SMS Spam Classifier** | 98.0% | 98.5% |
+| **SMS Spam Classifier** | 100% | 100%|
 
 ---
-
-## 🚀 How to Run
+##
+ 🚀 How to Run
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/swe28122812-max/SMS_SPAM_DETECTION_ML.git](https://github.com/swe28122812-max/SMS_SPAM_DETECTION_ML.git)

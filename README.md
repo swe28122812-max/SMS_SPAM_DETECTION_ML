@@ -11,24 +11,24 @@ This project uses Natural Language Processing (NLP) and Machine Learning algorit
 
 ## 🎯 Objective
 * Build an accurate SMS spam classifier using Python.
-* Preprocess raw text and convert it into numerical data using TF-IDF.
-* Compare models to find the best algorithm for spam detection.
+* Preprocess raw text and convert it into numerical vectors using TF-IDF.
+* Evaluate performance metrics to ensure reliable spam detection.
 
 ---
 
 ## 🧰 Technologies Used
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-learn, NLTK
-* **Algorithms:** Naive Bayes, Logistic Regression, SVM
+* **Concepts:** Natural Language Processing (NLP), Feature Extraction (TF-IDF), Text Classification
 
 ---
 
 ## ⚙️ Methodology
 1. **Data Cleaning:** Handle missing values and label messages (Spam/Ham).
 2. **Text Preprocessing:** Convert to lowercase, remove punctuation, stop words, and apply stemming.
-3. **Feature Extraction:** Convert text into numerical vectors using **TF-IDF**.
-4. **Model Training:** Train Naive Bayes, Logistic Regression, and SVM models.
-5. **Evaluation:** Test performance using Accuracy and Precision scores.
+3. **Feature Extraction:** Convert raw text into numerical feature vectors using **TF-IDF Vectorizer**.
+4. **Model Training:** Train and optimize the machine learning classifier.
+5. **Evaluation:** Analyze model performance using Accuracy, Precision, and Recall scores.
 
 ---
 
@@ -36,9 +36,7 @@ This project uses Natural Language Processing (NLP) and Machine Learning algorit
 
 | Model | Accuracy | Precision |
 | :--- | :--- | :--- |
-| **Multinomial Naive Bayes** | 97.4% | 98.2% |
-| **Logistic Regression** | 96.2% | 97.0% |
-| **Support Vector Machine (SVM)** | 98.0% | 98.5% |
+| **SMS Spam Classifier** | 98.0% | 98.5% |
 
 ---
 
